@@ -56,7 +56,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-helpMessage ="""—(••÷[ [̲̲̅̅D̲̲̅̅A̲̲̅̅E̲̲̅̅C̲̲̅̅H̲̲̅̅I̲̲̅̅B̲̲̅̅O̲̲̅̅T̲̲̅̅] ]÷••)—
+helpMessage ="""—(••÷[ [̲̲̅̅PROTECTBOT] ]÷••)—
 
 ••¤(`×[¤ c͓̽o͓̽m͓̽m͓̽a͓̽n͓̽d͓̽ ¤]×´)¤••
 ☫[Mid @] Cek mid by tag
@@ -147,11 +147,6 @@ wait = {
 Ready:
 ≫ bot protect ≪
 ≫ SelfBot ≪
-
-Supported by :
-
-—(••÷[ [̲̲̅̅D̲̲̅̅A̲̲̅̅E̲̲̅̅C̲̲̅̅H̲̲̅̅I̲̲̅̅B̲̲̅̅O̲̲̅̅T̲̲̅̅] ]÷••)—
-
 
 (っ◔◡◔)っ """,
     "lang":"JP",
@@ -330,7 +325,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u11842ce0b5892a5092f60837fc0b4660":
+                if msg.from_ == "udc7ce8646bbe9a2c6b32ff4d0ba586e1","u74927467b80b399ca6e5c9082dd910b9":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
