@@ -2,7 +2,6 @@
 
 import YYK
 import requests
-from bs4 import BeautifulSoup
 from YYK.lib.curve.ttypes import *
 from datetime import datetime
 import time,datetime,random,sys,re,os,json,subprocess,codecs,threading,glob
@@ -325,7 +324,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "udc7ce8646bbe9a2c6b32ff4d0ba586e1","u74927467b80b399ca6e5c9082dd910b9":
+                if msg.from_ == ["udc7ce8646bbe9a2c6b32ff4d0ba586e1","u74927467b80b399ca6e5c9082dd910b9"]:
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
