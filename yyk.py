@@ -1919,7 +1919,7 @@ def bot(op):
 #-----------------------------------------------
             elif msg.text in ["Creator"]:
 					msg.contentType = 13
-					msg.contentMetadata = {'mid': "udc7ce8646bbe9a2c6b32ff4d0ba586e1","u74927467b80b399ca6e5c9082dd910b9"}
+					msg.contentMetadata = {'mid': "[udc7ce8646bbe9a2c6b32ff4d0ba586e1","u74927467b80b399ca6e5c9082dd910b9"]}
 					cl.sendMessage(msg)
 #-----------------------------------------------
             elif "Spam " in msg.text:
@@ -2132,14 +2132,14 @@ def bot(op):
                 ginfo = cl.getGroup(msg.to)
                 cl.sendText(msg.to,"Selamat Datang Di Grup " + str(ginfo.name))
                 cl.sendText(msg.to,"Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName )
-					ki.sendText(msg.to,"Semoga betah!")
-					kk.sendText(msg.to,"Jangan nakal ok!")
+					#ki.sendText(msg.to,"Semoga betah!")
+					#kk.sendText(msg.to,"Jangan nakal ok!")
 #-----------------------------------------------
             elif msg.text in ["PING","Ping","ping","Samlekom","samlekom"]:
-				cl.sendText(msg.to,"Ping ô€ ô€†©ô¿¿")
-                ki.sendText(msg.to,"Ping ô€ ô€†©ô¿¿")
-                kk.sendText(msg.to,"Ping ô€ ô€†©ô¿¿")
-                kc.sendText(msg.to,"Ping ô€ ô€†©ô¿¿")
+		cl.sendText(msg.to,"Ping ô€ ô€†©ô¿¿")
+                #ki.sendText(msg.to,"Ping ô€ ô€†©ô¿¿")
+                #kk.sendText(msg.to,"Ping ô€ ô€†©ô¿¿")
+                #kc.sendText(msg.to,"Ping ô€ ô€†©ô¿¿")
 #-----------------------------------------------
             elif msg.text in ["Respon","respon"]:
 				if msg.from_ in admin:
